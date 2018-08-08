@@ -2,9 +2,7 @@
 
 ## 参考
 
-_**Lucene 实战\(第2版\) PDF高清中文版**_
-
-链接: [https://pan.baidu.com/s/1KyUG2\_0zdNphqYWrY-wYkw](https://pan.baidu.com/s/1KyUG2_0zdNphqYWrY-wYkw) 密码: e4n2
+Lucene 3.0 原理与代码分析完整版  链接: [https://pan.baidu.com/s/1kN5sUUf07XcO2Nv1GzxemQ](https://pan.baidu.com/s/1kN5sUUf07XcO2Nv1GzxemQ) 密码: haxp
 
 _**官方文档：**_
 
