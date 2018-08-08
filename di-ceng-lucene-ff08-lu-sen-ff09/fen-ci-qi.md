@@ -18,13 +18,21 @@
 
 TypeTokenFilterFactory可用于创建一个TypeTokenFilter,这个对象过滤tokens基于它们的TypeAttribute的.可以在factory.getStopTypes中设置.
 
-## CharFilter vs  TokenFilter
+## CharFilter vs  TokenFilter
 
-　　这里有好几对的CharFilters和tokenFilters是有关联\(MappingCharFilter和ASCIIFoldingFilter\)或者是几乎相同\(PatternReplaceCharFilterFactory和PatternReplaceFilterFactory\)的功能.通常不好区分哪一个才是最好的选择.
+这里有好几对的CharFilters和tokenFilters是有关联\(MappingCharFilter和ASCIIFoldingFilter\)或者是几乎相同\(PatternReplaceCharFilterFactory和PatternReplaceFilterFactory\)的功能.通常不好区分哪一个才是最好的选择.
 
-　　使用哪个过滤器很大程度上依赖于你使用的是哪个分词器\(tokenizer\),你是否需要预处理字符流.
+使用哪个过滤器很大程度上依赖于你使用的是哪个分词器\(tokenizer\),你是否需要预处理字符流.
 
-　　举例来说,假设你有一个StandardTokenizer的分词器,并且你很想知道它整体上是如何工作的,你想要自定义了一些指定的字符的行为表现.你需要修改你的规则,重新编译你得分词器\(tokenizer\).但是在分词前使用一个charFilter简单映射一些字符会使它变的更加简单.
+举例来说,假设你有一个StandardTokenizer的分词器,并且你很想知道它整体上是如何工作的,你想要自定义了一些指定的字符的行为表现.你需要修改你的规则,重新编译你得分词器\(tokenizer\).但是在分词前使用一个charFilter简单映射一些字符会使它变的更加简单.
+
+
+
+## lucene分词器Analyzer
+
+**参考**
+
+1.26 Lucene学习总结之十：Lucene的分词器Analyzer
 
 
 
