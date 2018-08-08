@@ -6,5 +6,9 @@ Lucene 3.0 原理与代码分析完整版  链接: [https://pan.baidu.com/s/1kN5
 
 _**官方文档：**_
 
-[http://lucene.apache.org/core/7\_4\_0/index.html](http://lucene.apache.org/core/7_4_0/index.html)
+[http://lucene.apache.org/core/7\_4\_0/index.html](http://lucene.apache.org/core/7_4_0/index.html) 
+
+易百教程
+
+https://www.yiibai.com/lucene/
 
