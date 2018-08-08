@@ -7,6 +7,7 @@
   * [lucene介绍以及原理](di-ceng-lucene-ff08-lu-sen-ff09/lucenejie-shao-yi-ji-yuan-li.md)
   * [lucene索引文件格式](di-ceng-lucene-ff08-lu-sen-ff09/lucenesuo-yin-wen-jian-ge-shi.md)
   * [lucene索引过程分析](di-ceng-lucene-ff08-lu-sen-ff09/lucenejian-suo-guo-cheng-fen-xi.md)
+  * [lucene搜索过程解析](di-ceng-lucene-ff08-lu-sen-ff09/lucenesou-suo-guo-cheng-jie-xi.md)
   * lucene应用
   * 性能分析及调优
 
