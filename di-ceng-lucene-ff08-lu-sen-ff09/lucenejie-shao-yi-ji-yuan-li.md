@@ -34,7 +34,15 @@ Lucene作为一个全文检索引擎，其具有如下突出的优点：
 
 前提
 
-lucene有7个包需要导入：analysis，document，index，queryParser，search，store，util
+lucene有7个包需要导入：analysis，document，index，queryParser，search，store，util 
 
 
+
+## lucene全文搜索基本原理
+
+参考
+
+https://blog.csdn.net/forfuture1978/article/details/4711308
+
+Lucene 3.0 原理与代码分析完整版  链接: https://pan.baidu.com/s/1kN5sUUf07XcO2Nv1GzxemQ 密码: haxp
 
