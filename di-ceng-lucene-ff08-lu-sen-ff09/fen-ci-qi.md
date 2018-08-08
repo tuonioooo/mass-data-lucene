@@ -26,13 +26,13 @@ TypeTokenFilterFactory可用于创建一个TypeTokenFilter,这个对象过滤tok
 
 举例来说,假设你有一个StandardTokenizer的分词器,并且你很想知道它整体上是如何工作的,你想要自定义了一些指定的字符的行为表现.你需要修改你的规则,重新编译你得分词器\(tokenizer\).但是在分词前使用一个charFilter简单映射一些字符会使它变的更加简单.
 
-
-
 ## lucene分词器Analyzer
 
 **参考**
 
+Lucene 3.0 原理与代码分析完整版
+
 1.26 Lucene学习总结之十：Lucene的分词器Analyzer
 
-
+链接: [https://pan.baidu.com/s/1kN5sUUf07XcO2Nv1GzxemQ](https://pan.baidu.com/s/1kN5sUUf07XcO2Nv1GzxemQ) 密码: haxp
 
