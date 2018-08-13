@@ -8,9 +8,9 @@ Lucene实战第2版 链接: [https://pan.baidu.com/s/1-N6W5Lz4yy5uKZZDg9gXxA](ht
 
 _**官方文档：**_
 
-[http://lucene.apache.org/core/7\_4\_0/index.html](http://lucene.apache.org/core/7_4_0/index.html) 
+[http://lucene.apache.org/core/7\_3\_0/index.html](http://lucene.apache.org/core/7_4_0/index.html)
 
-http://lucene.apache.org/core/7\_3\_0/core/overview-summary.html\#overview.description
+[http://lucene.apache.org/core/7\_3\_0/core/overview-summary.html\#overview.description](http://lucene.apache.org/core/7_3_0/core/overview-summary.html#overview.description)
 
 易百教程
 
