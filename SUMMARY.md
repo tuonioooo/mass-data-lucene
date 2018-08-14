@@ -23,6 +23,7 @@
     * [索引期间检测语言](solrpian/suo-yin-de-jian-li-guo-cheng/suo-yin-qi-jian-jian-ce-yu-yan.md)
     * [重复数据删除](solrpian/suo-yin-de-jian-li-guo-cheng/zhong-fu-shu-ju-shan-chu.md)
     * [内容流](solrpian/suo-yin-de-jian-li-guo-cheng/nei-rong-liu.md)
+    * [UIMA集成](solrpian/suo-yin-de-jian-li-guo-cheng/uimaji-cheng.md)
   * 文本分析应用
   * 多语言搜索
   * 高级特性：组合&合并
