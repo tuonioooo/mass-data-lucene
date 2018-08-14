@@ -14,6 +14,7 @@
 * [Solr篇](solrpian.md)
   * [Solr架构及概念分析](solrpian/solrjia-gou-ji-gai-nian-fen-xi.md)
   * [索引的建立过程](solrpian/suo-yin-de-jian-li-guo-cheng.md)
+    * [索引介绍](solrpian/suo-yin-de-jian-li-guo-cheng/suo-yin-jie-shao.md)
   * 文本分析应用
   * 多语言搜索
   * 高级特性：组合&合并
