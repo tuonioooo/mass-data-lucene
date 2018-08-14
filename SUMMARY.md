@@ -18,4 +18,5 @@
   * 多语言搜索
   * 高级特性：组合&合并
   * 企业级Solr云实战
+  * [需求场景](solrpian/xu-qiu-chang-jing.md)
 
