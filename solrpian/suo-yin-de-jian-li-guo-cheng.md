@@ -20,7 +20,7 @@ Solr索引可以接受来自许多不同来源的数据，包括XML文件，逗�
 
 * [Solr示例目录](#)
 
-* [传输文件的curl实用程序](https://lucene.apache.org/solr/guide/7_4/introduction-to-solr-indexing.html#the-curl-utility-for-transferring-files)
+* [传输文件的curl实用程序](https://lucene.apache.org/solr/guide/7_4/introduction-to-solr-indexing.html#the-curl-utility-for-transferring-files) 
 
 
 
