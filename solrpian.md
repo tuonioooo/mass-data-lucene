@@ -1,20 +1,14 @@
 # Solr篇
 
-参考
+## 参考
 
-Solr文档学习--Getting Started   [https://blog.csdn.net/frankcheng5143/article/details/52291176](https://blog.csdn.net/frankcheng5143/article/details/52291176)
+_**Solr文档学习--Getting Started**_   [https://blog.csdn.net/frankcheng5143/article/details/52291176](https://blog.csdn.net/frankcheng5143/article/details/52291176)
 
+_**官网    **_[https://lucene.apache.org/solr/](https://lucene.apache.org/solr/)
 
+_**官网教程**_ [https://lucene.apache.org/solr/guide/7\_4/solr-tutorial.html](https://lucene.apache.org/solr/guide/7_4/solr-tutorial.html) 
 
-官网
-
-https://lucene.apache.org/solr/
-
-[https://lucene.apache.org/solr/guide/7\_4/solr-tutorial.html](https://lucene.apache.org/solr/guide/7_4/solr-tutorial.html)
-
-官网教程
-
-solr 入门和实践
+_**solr 入门和实践**_
 
 [http://www.2cto.com/kf/201511/451412.html](http://www.2cto.com/kf/201511/451412.html)
 
