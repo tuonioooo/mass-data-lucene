@@ -17,6 +17,7 @@
     * [索引介绍](solrpian/suo-yin-de-jian-li-guo-cheng/suo-yin-jie-shao.md)
     * [工具创建索引](solrpian/suo-yin-de-jian-li-guo-cheng/gong-ju-chuang-jian-suo-yin.md)
     * [使用索引处理程序上传数据](solrpian/suo-yin-de-jian-li-guo-cheng/shi-yong-suo-yin-chu-li-cheng-xu-shang-chuan-shu-ju.md)
+    * [使用Apache Tika使用Solr Cell上传数据](solrpian/suo-yin-de-jian-li-guo-cheng/shi-yong-apache-tika-shi-yong-solr-cell-shang-chuan-shu-ju.md)
   * 文本分析应用
   * 多语言搜索
   * 高级特性：组合&合并
