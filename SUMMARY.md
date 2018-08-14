@@ -19,7 +19,7 @@
   * [文档，字段和架构设计](solrpian/wen-dang-ff0c-zi-duan-he-jia-gou-she-ji.md)
   * [了解分析器，标记器和过滤器](solrpian/le-jie-fen-xi-qi-ff0c-biao-ji-qi-he-guo-lv-qi.md)
   * [索引和基本数据操作](solrpian/suo-yin-de-jian-li-guo-cheng.md)
-  * 文本分析应用
+  * [文本分析应用](solrpian/wen-ben-fen-xi-ying-yong.md)
   * 多语言搜索
   * 高级特性：组合&合并
   * 企业级Solr云实战
