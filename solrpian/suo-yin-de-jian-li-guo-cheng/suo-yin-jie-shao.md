@@ -1,6 +1,4 @@
-[索引介绍](/solrpian/suo-yin-de-jian-li-guo-cheng/suo-yin-jie-shao.md) 
-
-## 索引介绍
+# 索引介绍
 
 向Solr索引添加内容，并在必要时修改该内容或将其删除。通过向索引添加内容，我们可以通过Solr进行搜索。
 
