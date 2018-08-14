@@ -11,4 +11,11 @@
   * [lucene应用](di-ceng-lucene-ff08-lu-sen-ff09/luceneying-yong.md)
   * [性能分析及调优](di-ceng-lucene-ff08-lu-sen-ff09/xing-neng-fen-xi-ji-diao-you.md)
   * [lucene相关问题](di-ceng-lucene-ff08-lu-sen-ff09/lucenexiang-guan-wen-ti.md)
+* [Solr篇](solrpian.md)
+  * Solr架构及概念分析
+  * 索引的建立过程
+  * 文本分析应用
+  * 多语言搜索
+  * 高级特性：组合&合并
+  * 企业级Solr云实战
 
