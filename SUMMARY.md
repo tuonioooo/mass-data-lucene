@@ -15,6 +15,7 @@
   * [Solr架构及概念分析](solrpian/solrjia-gou-ji-gai-nian-fen-xi.md)
   * [入门](solrpian/ru-men.md)
   * [部署和运营](solrpian/bu-shu-he-yun-ying.md)
+  * [使用Solr管理用户界面](solrpian/shi-yong-solr-guan-li-yong-hu-jie-mian.md)
   * [索引的建立过程](solrpian/suo-yin-de-jian-li-guo-cheng.md)
     * [索引介绍](solrpian/suo-yin-de-jian-li-guo-cheng/suo-yin-jie-shao.md)
     * [工具创建索引](solrpian/suo-yin-de-jian-li-guo-cheng/gong-ju-chuang-jian-suo-yin.md)
@@ -30,5 +31,5 @@
   * 多语言搜索
   * 高级特性：组合&合并
   * 企业级Solr云实战
-  * [需求场景](solrpian/xu-qiu-chang-jing.md)
+  * 使用Solr管理用户界面
 
