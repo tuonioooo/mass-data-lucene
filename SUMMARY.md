@@ -13,6 +13,7 @@
   * [lucene相关问题](di-ceng-lucene-ff08-lu-sen-ff09/lucenexiang-guan-wen-ti.md)
 * [Solr篇](solrpian.md)
   * [Solr架构及概念分析](solrpian/solrjia-gou-ji-gai-nian-fen-xi.md)
+  * [入门](solrpian/ru-men.md)
   * [索引的建立过程](solrpian/suo-yin-de-jian-li-guo-cheng.md)
     * [索引介绍](solrpian/suo-yin-de-jian-li-guo-cheng/suo-yin-jie-shao.md)
     * [工具创建索引](solrpian/suo-yin-de-jian-li-guo-cheng/gong-ju-chuang-jian-suo-yin.md)
