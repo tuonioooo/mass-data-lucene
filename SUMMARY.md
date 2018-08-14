@@ -19,16 +19,6 @@
   * [文档，字段和架构设计](solrpian/wen-dang-ff0c-zi-duan-he-jia-gou-she-ji.md)
   * [了解分析器，标记器和过滤器](solrpian/le-jie-fen-xi-qi-ff0c-biao-ji-qi-he-guo-lv-qi.md)
   * [索引和基本数据操作](solrpian/suo-yin-de-jian-li-guo-cheng.md)
-    * [索引介绍](solrpian/suo-yin-de-jian-li-guo-cheng/suo-yin-jie-shao.md)
-    * [工具创建索引](solrpian/suo-yin-de-jian-li-guo-cheng/gong-ju-chuang-jian-suo-yin.md)
-    * [使用索引处理程序上传数据](solrpian/suo-yin-de-jian-li-guo-cheng/shi-yong-suo-yin-chu-li-cheng-xu-shang-chuan-shu-ju.md)
-    * [使用Apache Tika使用Solr Cell上传数据](solrpian/suo-yin-de-jian-li-guo-cheng/shi-yong-apache-tika-shi-yong-solr-cell-shang-chuan-shu-ju.md)
-    * [使用数据导入处理程序上载结构化数据存储数据](solrpian/suo-yin-de-jian-li-guo-cheng/shi-yong-shu-ju-dao-ru-chu-li-cheng-xu-shang-zai-jie-gou-hua-shu-ju-cun-chu-shu-ju.md)
-    * [更新文件](solrpian/suo-yin-de-jian-li-guo-cheng/geng-xin-wen-jian.md)
-    * [索引期间检测语言](solrpian/suo-yin-de-jian-li-guo-cheng/suo-yin-qi-jian-jian-ce-yu-yan.md)
-    * [重复数据删除](solrpian/suo-yin-de-jian-li-guo-cheng/zhong-fu-shu-ju-shan-chu.md)
-    * [内容流](solrpian/suo-yin-de-jian-li-guo-cheng/nei-rong-liu.md)
-    * [UIMA集成](solrpian/suo-yin-de-jian-li-guo-cheng/uimaji-cheng.md)
   * 文本分析应用
   * 多语言搜索
   * 高级特性：组合&合并
