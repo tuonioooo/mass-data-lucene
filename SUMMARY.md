@@ -21,6 +21,7 @@
     * [使用数据导入处理程序上载结构化数据存储数据](solrpian/suo-yin-de-jian-li-guo-cheng/shi-yong-shu-ju-dao-ru-chu-li-cheng-xu-shang-zai-jie-gou-hua-shu-ju-cun-chu-shu-ju.md)
     * [更新文件](solrpian/suo-yin-de-jian-li-guo-cheng/geng-xin-wen-jian.md)
     * [索引期间检测语言](solrpian/suo-yin-de-jian-li-guo-cheng/suo-yin-qi-jian-jian-ce-yu-yan.md)
+    * [重复数据删除](solrpian/suo-yin-de-jian-li-guo-cheng/zhong-fu-shu-ju-shan-chu.md)
   * 文本分析应用
   * 多语言搜索
   * 高级特性：组合&合并
