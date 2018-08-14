@@ -13,7 +13,7 @@
   * [lucene相关问题](di-ceng-lucene-ff08-lu-sen-ff09/lucenexiang-guan-wen-ti.md)
 * [Solr篇](solrpian.md)
   * [Solr架构及概念分析](solrpian/solrjia-gou-ji-gai-nian-fen-xi.md)
-  * 索引的建立过程
+  * [索引的建立过程](solrpian/suo-yin-de-jian-li-guo-cheng.md)
   * 文本分析应用
   * 多语言搜索
   * 高级特性：组合&合并
