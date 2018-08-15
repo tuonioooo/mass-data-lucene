@@ -24,4 +24,5 @@
   * 高级特性：组合&合并
   * 企业级Solr云实战
   * 了解分析器，标记器和过滤器
+  * [Solr独立模式](solrpian/solrdu-li-mo-shi.md)
 
