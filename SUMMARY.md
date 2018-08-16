@@ -23,5 +23,5 @@
   * 高级特性：组合&合并
   * 企业级Solr云实战
   * [Solr独立模式](solrpian/solrdu-li-mo-shi.md)
-  * [Solr集群模式](solrpian/solrji-qun-mo-shi.md)
+  * [SolrCloud集群模式](solrpian/solrji-qun-mo-shi.md)
 

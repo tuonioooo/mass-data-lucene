@@ -1,4 +1,4 @@
-# Solr集群模式
+# SolrCloud集群模式
 
 ### 修改环境变量
 
@@ -25,7 +25,7 @@ SOLR_HOST=god.cn
 # clientPort=2181
 # NOTE: Solr sets this based on zkRun / zkHost params
 clientPort=2181
-zkHost=god.cn #这个是zookeeper的主机名称 或者zkRun=god.cn 
+zkHost=god.cn #这个是zookeeper的主机名称 或者zkRun=god.cn
 ```
 
 > 注意：以上脚本修改，仅是单个solr示例，集群模式下，需要逐一的添加
