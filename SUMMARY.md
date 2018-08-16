@@ -36,6 +36,7 @@
     * [es索引管理、映射管理、以及分析](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/essuo-yin-guan-li-3001-ying-she-guan-li-3001-yi-ji-fen-xi.md)
     * [cat api使用](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/cat-apishi-yong.md)
     * [集群api使用](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/ji-qun-api-shi-yong.md)
+    * [查询DSL](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/cha-xun-dsl.md)
   * [elasticsearch架构及概念分析](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/elasticsearchjia-gou-ji-gai-nian-fen-xi.md)
   * elasticsearch集群搭建及管理
   * 分片存储
