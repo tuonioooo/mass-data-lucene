@@ -41,6 +41,7 @@
     * [分析](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/fen-xi.md)
     * [模块](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/mo-kuai.md)
     * [索引模块](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/suo-yin-mo-kuai.md)
+    * [摄取节点](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/she-qu-jie-dian.md)
   * [elasticsearch架构及概念分析](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/elasticsearchjia-gou-ji-gai-nian-fen-xi.md)
   * elasticsearch集群搭建及管理
   * 分片存储
