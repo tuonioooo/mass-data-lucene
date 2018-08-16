@@ -20,7 +20,9 @@
   * [了解分析器，标记器和过滤器](solrpian/le-jie-fen-xi-qi-ff0c-biao-ji-qi-he-guo-lv-qi.md)
   * [索引和基本数据操作](solrpian/suo-yin-de-jian-li-guo-cheng.md)
   * [多语言搜索](solrpian/duo-yu-yan-sou-suo.md)
-  * 企业级Solr云实战
+  * [企业级Solr云实战](solrpian/qi-ye-ji-solr-yun-shi-zhan.md)
   * [Solr独立模式](solrpian/solrdu-li-mo-shi.md)
   * [SolrCloud集群模式](solrpian/solrji-qun-mo-shi.md)
+* [elasticsearch篇（\[ɪˈlæstɪk\] \[sɜːtʃ\] ）](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t.md)
+  * elasticsearch架构及概念分析
 
