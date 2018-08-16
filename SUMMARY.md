@@ -25,4 +25,5 @@
   * 企业级Solr云实战
   * 了解分析器，标记器和过滤器
   * [Solr独立模式](solrpian/solrdu-li-mo-shi.md)
+  * [Solr集群模式](solrpian/solrji-qun-mo-shi.md)
 
