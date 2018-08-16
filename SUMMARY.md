@@ -27,6 +27,7 @@
   * [教程](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng.md)
     * [入门](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/ru-men.md)
     * [es安装配置](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/esan-zhuang-pei-zhi.md)
+    * [es升级讲解](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/essheng-ji-jiang-jie.md)
   * [elasticsearch架构及概念分析](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/elasticsearchjia-gou-ji-gai-nian-fen-xi.md)
   * 索引和映射原理分析
   * elasticsearch集群搭建及管理
