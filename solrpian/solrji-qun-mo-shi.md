@@ -1,6 +1,8 @@
 # Solr集群模式
 
-> vi /etc/default/solr.in.sh 
+> vi /etc/default/solr.in.sh
+>
+> 加入以下环境变量：
 >
 > SOLR\_PID\_DIR="/var/solr"
 >
@@ -12,7 +14,7 @@
 >
 > SOLR\_PORT="8983"
 >
-> ZK\_HOST=god.cn  \#如果是集群模式，必须加这个属性，如果不启用集群，注释即可
+> ZK\_HOST=god.cn  \#如果是集群模式，必须加这个属性，如果不启用集群，注释即可
 >
 > SOLR\_HOST=god.cn
 
