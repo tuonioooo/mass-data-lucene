@@ -1,5 +1,7 @@
 # SolrCloud集群模式
 
+http://lucene.apache.org/solr/guide/7\_4/solrcloud.html
+
 ### 修改环境变量
 
 ```
