@@ -34,7 +34,7 @@
 
 > 代表es内部节点或集群与客户端的交互方式，默认内部是使用tcp协议进行交互，同时它支持http协议（json格式）、thrift、servlet、memcached、zeroMQ等的传输协议（通过插件方式集成）。
 
-##  二、部署环境
+## 二、部署环境
 
 采用三台CentOS7.3部署Elasticsearch集群，部署Elasticsearch集群就不得不提索引分片，以下是索引分片的简单介绍。
 
@@ -147,8 +147,7 @@ curl -XGET 'http://172.18.68.11:9200/_cat/nodes?pretty'
 如果你要想查看更多有关于集群信息、当前节点统计信息等等，可以使用一下命令来获取到所有可以查看的信息。
 
 ```
-curl -XGET 'http://172.18.68.11:9200/_cat?pretty'   
- 
+curl -XGET 'http://172.18.68.11:9200/_cat?pretty'
 ```
 
 
