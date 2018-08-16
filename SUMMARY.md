@@ -31,6 +31,7 @@
     * [es版本升级以及单节点升级讲解](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/esban-ben-sheng-ji-yi-ji-dan-jie-dian-sheng-ji-jiang-jie.md)
     * [es restful api使用](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/es-restful-apishi-yong.md)
     * [es文档api使用](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/es-wen-dang-api-shi-yong.md)
+    * [es搜索api使用](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/essou-suo-api-shi-yong.md)
   * [elasticsearch架构及概念分析](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/elasticsearchjia-gou-ji-gai-nian-fen-xi.md)
   * 索引和映射原理分析
   * elasticsearch集群搭建及管理
