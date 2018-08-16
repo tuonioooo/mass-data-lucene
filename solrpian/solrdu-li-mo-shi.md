@@ -1,10 +1,8 @@
 # Solr独立模式
 
-参考：
+手动建立核心参考：
 
-https://www.cnblogs.com/liushuan/p/8892717.html
-
-
+[https://www.cnblogs.com/liushuan/p/8892717.html](https://www.cnblogs.com/liushuan/p/8892717.html)
 
 遇到问题：
 
