@@ -2,9 +2,11 @@
 
 ### 手动建立核心参考：
 
-[https://www.cnblogs.com/liushuan/p/8892717.html](https://www.cnblogs.com/liushuan/p/8892717.html) 
+[https://www.cnblogs.com/liushuan/p/8892717.html](https://www.cnblogs.com/liushuan/p/8892717.html)
 
-https://blog.csdn.net/u010066934/article/details/51489055
+[https://blog.csdn.net/u010066934/article/details/51489055](https://blog.csdn.net/u010066934/article/details/51489055) 
+
+https://www.cnblogs.com/youqc/p/9075569.html
 
 遇到问题：
 
