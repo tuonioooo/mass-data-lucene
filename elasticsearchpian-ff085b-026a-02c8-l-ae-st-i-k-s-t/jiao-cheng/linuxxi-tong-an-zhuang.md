@@ -143,6 +143,18 @@ success
 
 ![](/assets/import-es-001.png)
 
+* ### **elasticsearch安装kibana插件**
+
+下载
+
+```
+[root@localhost elk]# wget https://artifacts.elastic.co/downloads/kibana/kibana-6.5.1-linux-x86_64.tar.gz
+```
+
+
+
+
+
 参考：
 
 [https://github.com/mobz/elasticsearch-head](https://github.com/mobz/elasticsearch-head)

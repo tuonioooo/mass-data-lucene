@@ -28,6 +28,7 @@
     * [前言](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/qian-yan.md)
     * [linux系统安装es、head、kibana插件](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/linuxxi-tong-an-zhuang.md)
     * [windows系统安装es](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/windowsxi-tong-an-zhuang-es.md)
+    * [es、head、kibana、ik插件安装时遇到问题汇总](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/esheadkibanaikcha-jian-an-zhuang-shi-yu-dao-wen-ti-hui-zong.md)
   * [elasticsearch架构及概念分析](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/elasticsearchjia-gou-ji-gai-nian-fen-xi.md)
   * [elasticsearch集群搭建及管理](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/elasticsearchji-qun-da-jian-ji-guan-li.md)
   * [分片存储](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/fen-pian-cun-chu.md)
