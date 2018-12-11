@@ -141,7 +141,9 @@ success
 success
 ```
 
-![](/assets/import-es-001.png)参考：
+![](/assets/import-es-001.png)
+
+参考：
 
 [https://github.com/mobz/elasticsearch-head](https://github.com/mobz/elasticsearch-head)
 
