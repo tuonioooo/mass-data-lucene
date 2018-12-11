@@ -76,7 +76,7 @@ Elasticsearch Head是集群管理、数据可视化、增删改查、查询语�
 2\)、获取源码elasticsearch-head
 
 ```
-[root@localhost elk]# wget  https://github.com/mobz/elasticsearch-head
+[root@localhost elk]# git clone https://github.com/mobz/elasticsearch-head
 ```
 
 3\)、.head插件需要node.js的支持
@@ -89,8 +89,17 @@ Elasticsearch Head是集群管理、数据可视化、增删改查、查询语�
 v10.9.0
 
 解压文件的 bin 目录底下包含了 node、npm 等命令，我们可以使用 ln 命令来设置软连接：
-[root@localhost node-v10.9.0-linux-x64]# ln -s /home/elk/nodejs/bin/npm /usr/local/bin/
-[root@localhost node-v10.9.0-linux-x64]# ln -s /home/elk/nodejs/bin/code /usr/local/bin/
+[root@localhost bin]# ln -s /home/elk/node-v10.9.0-linux-x64/bin/npm /usr/local/bin/
+[root@localhost bin]# ln -s /home/elk/node-v10.9.0-linux-x64/bin/node /usr/local/bin/
+```
+
+4\)、使用命令node -v 或者npm -v验证是否安装成功
+
+```
+[elk@localhost elasticsearch-head]$ npm -v
+6.2.0
+[elk@localhost elasticsearch-head]$ node -v
+v10.9.0
 ```
 
 
