@@ -5,7 +5,8 @@
 ### 官网近期版本详情
 
 ```
-https://github.com/medcl/elasticsearch-analysis-ik/releases/
+https://github.com/medcl/elasticsearch-analysis-ik/releases
+https://github.com/medcl/elasticsearch-analysis-ik
 ```
 
 ### 下载到本机
@@ -79,5 +80,5 @@ unzip elasticsearch-analysis-ik-6.5.2.zip
 
 [http://www.cnblogs.com/xing901022/p/5910139.html](http://www.cnblogs.com/xing901022/p/5910139.html)
 
-http://www.cnblogs.com/zlslch/p/6440373.html
+[http://www.cnblogs.com/zlslch/p/6440373.html](http://www.cnblogs.com/zlslch/p/6440373.html)
 
