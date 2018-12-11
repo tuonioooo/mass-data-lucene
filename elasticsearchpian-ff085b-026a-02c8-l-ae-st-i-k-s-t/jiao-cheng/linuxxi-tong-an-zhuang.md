@@ -53,7 +53,7 @@ https://www.elastic.co/downloads/kibana
 
 Elasticsearch Head是集群管理、数据可视化、增删改查、查询语句可视化工具，它的安装方式有两种，一种是使用命令安装，一种是下载包安装
 
-1.命令安装
+1.命令安装（适合6.0版本之前，6.0版本之后不适合）
 
 ```
 ./bin/plugin -install mobz/elasticsearch-head(*)
@@ -63,7 +63,34 @@ Elasticsearch Head是集群管理、数据可视化、增删改查、查询语�
 故而执行命令 ./bin/plugin install mobz/elasticsearch-head即可。
 
 详细信息请看：https://github.com/mobz/elasticsearch-head下面的README.md文件。
+```
 
+2.下载安装（推荐）
+
+1\)、head插件源码在git上，先安装git
+
+```
+[root@localhost bin]# yum install git
+```
+
+2\)、获取源码elasticsearch-head
+
+```
+[root@localhost elk]# wget  https://github.com/mobz/elasticsearch-head
+```
+
+3\)、.head插件需要node.js的支持
+
+```
+[root@localhost elk]# wget https://nodejs.org/dist/v10.9.0/node-v10.9.0-linux-x64.tar.xz // 下载
+[root@localhost elk]# tar xf node-v10.9.0-linux-x64.tar.xz // 解压
+[root@localhost elk]# cd node-v10.9.0-linux-x64 // 进入解压目录
+[root@localhost node-v10.9.0-linux-x64]# ./bin/node -v // 执行node命令 查看版本
+v10.9.0
+
+解压文件的 bin 目录底下包含了 node、npm 等命令，我们可以使用 ln 命令来设置软连接：
+[root@localhost node-v10.9.0-linux-x64]# ln -s /home/elk/nodejs/bin/npm /usr/local/bin/
+[root@localhost node-v10.9.0-linux-x64]# ln -s /home/elk/nodejs/bin/code /usr/local/bin/
 ```
 
 
