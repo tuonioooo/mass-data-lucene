@@ -53,3 +53,18 @@ https://www.elastic.co/downloads/kibana
 
 Elasticsearch Head是集群管理、数据可视化、增删改查、查询语句可视化工具，它的安装方式有两种，一种是使用命令安装，一种是下载包安装
 
+1.命令安装
+
+```
+./bin/plugin -install mobz/elasticsearch-head(*)
+
+提示错误，错误信息是：ERROR: unknown command [-install]. Use [-h] option to list available commands，这是因为Elasticsearch在2.0以上的版本将-install变成了install。
+
+故而执行命令 ./bin/plugin install mobz/elasticsearch-head即可。
+
+详细信息请看：https://github.com/mobz/elasticsearch-head下面的README.md文件。
+
+```
+
+
+
