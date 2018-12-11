@@ -73,5 +73,13 @@ unzip elasticsearch-analysis-ik-6.5.2.zip
 
 ![](/assets/ik-001.png)
 
+参考：
+
+https://www.cnblogs.com/hanyinglong/p/5409003.html
+
+http://www.cnblogs.com/xing901022/p/5910139.html
+
+
+
 
 
