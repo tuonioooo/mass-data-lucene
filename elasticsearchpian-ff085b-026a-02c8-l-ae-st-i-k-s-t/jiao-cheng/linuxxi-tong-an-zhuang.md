@@ -39,5 +39,17 @@ https://www.elastic.co/downloads/kibana
 [root@localhost elk]# chown elk:users /home/elk/elasticsearch-6.5.2 -R
 ```
 
+切换elk用户，运行es
 
+```
+[root@localhost elk]# su elk
+[elk@localhost root]$ cd /home/elk/elasticsearch-6.5.2/bin/
+[elk@localhost bin]$ ./elasticsearch &   #后台运行
+```
+
+> 以上就是一个简单的es安装过程，非常简单
+
+* ### elasticsearch-head安装
+
+Elasticsearch Head是集群管理、数据可视化、增删改查、查询语句可视化工具，它的安装方式有两种，一种是使用命令安装，一种是下载包安装
 
