@@ -105,7 +105,7 @@ v10.9.0
 5\)、安装grunt
 
 ```
-[elk@localhost elasticsearch-head]$ npm install -g grunt -cli
+[elk@localhost elasticsearch-head]$ npm install -g grunt -cli --save-dev
 ```
 
 a.安装遇到的问题
@@ -125,7 +125,7 @@ npm ERR!   syscall: 'access',
 npm ERR!   path: '/opt/moudles/node-v8.9.4-linux-x64/lib/node_modules' }
 npm ERR!
 npm ERR! Please try running this command again as root/Administrator.
- 
+
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /home/es/.npm/_logs/2018-02-25T02_49_37_372Z-debug.log
 ```
@@ -168,7 +168,7 @@ npm run start
 [elk@localhost bin]$ ./elasticsearch
 ```
 
-9\)、访问 http://192.168.127.127:9100 ，外部访问时，需要开通端口号：
+9\)、访问 [http://192.168.127.127:9100](http://192.168.127.127:9100) ，外部访问时，需要开通端口号：
 
 ```
 [root@localhost elasticsearch-head]# firewall-cmd --zone=public --add-port=9100/tcp --permanent
@@ -178,6 +178,4 @@ success
 ```
 
 ![](/assets/import-es-001.png)
-
-
 
