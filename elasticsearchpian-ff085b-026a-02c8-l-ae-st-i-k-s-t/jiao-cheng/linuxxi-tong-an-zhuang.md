@@ -102,9 +102,10 @@ v10.9.0
 v10.9.0
 ```
 
-5\)、修改elasticsearch的配置文件，elasticsearch安装目录/config/elasticsearch.yml
+5\)、修改elasticsearch的配置文件，elasticsearch安装目录/config/elasticsearch.yml，同时开启es远程访问
 
 ```
+network.host: 0.0.0.0
 http.cors.enabled: true
 http.cors.allow-origin: "*"
 ```
@@ -140,11 +141,5 @@ success
 success
 ```
 
-![](/assets/import-es-001.png)参考：https://github.com/mobz/elasticsearch-head
-
-
-
-
-
-
+![](/assets/import-es-001.png)参考：[https://github.com/mobz/elasticsearch-head](https://github.com/mobz/elasticsearch-head)
 
