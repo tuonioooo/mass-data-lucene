@@ -53,7 +53,7 @@ https://www.elastic.co/downloads/kibana
 
 Elasticsearch Head是集群管理、数据可视化、增删改查、查询语句可视化工具，它的安装方式有两种，一种是使用命令安装，一种是下载包安装
 
-1.命令安装（适合6.0版本之前，6.0版本之后不适合）
+**1.命令安装（适合6.0版本之前，6.0版本之后不适合）**
 
 ```
 ./bin/plugin -install mobz/elasticsearch-head(*)
@@ -65,7 +65,7 @@ Elasticsearch Head是集群管理、数据可视化、增删改查、查询语�
 详细信息请看：https://github.com/mobz/elasticsearch-head下面的README.md文件。
 ```
 
-2.下载安装（推荐）
+**2.下载安装（推荐）**
 
 1\)、head插件源码在git上，先安装git
 
@@ -101,6 +101,83 @@ v10.9.0
 [elk@localhost elasticsearch-head]$ node -v
 v10.9.0
 ```
+
+5\)、安装grunt
+
+```
+[elk@localhost elasticsearch-head]$ npm install -g grunt -cli
+```
+
+a.安装遇到的问题
+
+```
+npm WARN checkPermissions Missing write access to /opt/moudles/node-v8.9.4-linux-x64/lib/node_modules
+npm ERR! path /opt/moudles/node-v8.9.4-linux-x64/lib/node_modules
+npm ERR! code EACCES
+npm ERR! errno -13
+npm ERR! syscall access
+npm ERR! Error: EACCES: permission denied, access '/opt/moudles/node-v8.9.4-linux-x64/lib/node_modules'
+npm ERR!  { Error: EACCES: permission denied, access '/opt/moudles/node-v8.9.4-linux-x64/lib/node_modules'
+npm ERR!   stack: 'Error: EACCES: permission denied, access \'/opt/moudles/node-v8.9.4-linux-x64/lib/node_modules\'',
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'access',
+npm ERR!   path: '/opt/moudles/node-v8.9.4-linux-x64/lib/node_modules' }
+npm ERR!
+npm ERR! Please try running this command again as root/Administrator.
+ 
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/es/.npm/_logs/2018-02-25T02_49_37_372Z-debug.log
+```
+
+解决方式：可以看出权限不够，是由于node是root用户安装的，我这里是elk用户，授予elk用户执行权限，chown -R elk:users /home/elk/
+
+操作如下：
+
+```
+[elk@localhost elasticsearch-head]$ su root
+密码：
+[root@localhost elasticsearch-head]# chown -R elk:users /home/elk/
+```
+
+6\)、修改elasticsearch的配置文件，elasticsearch安装目录/config/elasticsearch.yml
+
+```
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+```
+
+7\)、运行head
+
+```
+[elk@localhost elasticsearch-head]$ npm run start
+
+> elasticsearch-head@0.0.0 start /home/elk/elasticsearch-head
+> grunt server
+
+(node:5116) ExperimentalWarning: The http2 module is an experimental API.
+Running "connect:server" (connect) task
+Waiting forever...
+Started connect web server on http://localhost:9100
+npm run start
+```
+
+8\)、用elk用户重新运行elasticsearch
+
+```
+[elk@localhost bin]$ ./elasticsearch
+```
+
+9\)、访问 http://192.168.127.127:9100 ，外部访问时，需要开通端口号：
+
+```
+[root@localhost elasticsearch-head]# firewall-cmd --zone=public --add-port=9100/tcp --permanent
+success
+[root@localhost elasticsearch-head]# firewall-cmd --reload
+success
+```
+
+![](/assets/import-es-001.png)
 
 
 
