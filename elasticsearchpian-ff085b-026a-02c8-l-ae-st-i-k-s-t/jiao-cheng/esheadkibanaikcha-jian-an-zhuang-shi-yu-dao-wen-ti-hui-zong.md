@@ -18,3 +18,7 @@ chown elk:users /home/elk/elasticsearch-6.5.1 -R
 
 PS：其他Java软件报.AccessDeniedException错误也可以同样方式解决，给 执行用户相应的目录权限即可
 
+添加用户命令：
+
+https://www.cnblogs.com/irisrain/p/4324593.html
+
