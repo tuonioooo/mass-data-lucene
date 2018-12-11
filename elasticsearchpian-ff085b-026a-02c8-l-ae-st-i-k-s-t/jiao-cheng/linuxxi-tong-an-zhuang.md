@@ -154,7 +154,7 @@ success
 解压
 
 ```
-[root@localhost elk]# tar -zxvf kibana-6.5.1-linux-x86_64.tar.gz 
+[root@localhost elk]# tar -zxvf kibana-6.5.1-linux-x86_64.tar.gz
 ```
 
 修改Kibana配置文件
@@ -166,7 +166,7 @@ success
 #绑定的端口号
 server.port: 5601
 #绑定的ip
-server.host: http://192.168.127.100
+server.host: 192.168.127.100
 #主机名称
 #server.name: "node1"
 #elasticip
@@ -191,8 +191,24 @@ http.cors.allow-origin: "*"
 启动kibana
 
 ```
+[root@localhost bin]# ./kibana
 
 ```
+
+访问测试
+
+```
+[root@localhost elasticsearch-head]# firewall-cmd --zone=public --add-port=5601/tcp --permanent
+success
+[root@localhost elasticsearch-head]# firewall-cmd --reload
+success
+
+访问：192.168.127.100:5601
+```
+
+![](/assets/kibana.png)
+
+
 
 参考：
 
@@ -204,7 +220,5 @@ http.cors.allow-origin: "*"
 
 [https://jingyan.baidu.com/article/3065b3b64eb570becff8a4da.html](https://jingyan.baidu.com/article/3065b3b64eb570becff8a4da.html)
 
-https://blog.csdn.net/yelllowcong/article/details/78792397
-
-
+[https://blog.csdn.net/yelllowcong/article/details/78792397](https://blog.csdn.net/yelllowcong/article/details/78792397)
 
