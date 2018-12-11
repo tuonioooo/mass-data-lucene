@@ -152,18 +152,9 @@ curl -XGET 'http://172.18.68.11:9200/_cat?pretty'
 
 所有配置都需要开启端口
 
-  
-
-
 集群服务端口是：9300
 
-  
-
-
 对外服务接端口是：9200
-
-  
-
 
 head端口是：9100
 
@@ -174,4 +165,22 @@ head端口是：9100
 [https://elasticsearch.cn/article/465](https://elasticsearch.cn/article/465)
 
 [http://www.cnblogs.com/ljhdo/p/4959412.html](http://www.cnblogs.com/ljhdo/p/4959412.html)
+
+[https://blog.csdn.net/gamer\_gyt/article/details/59077189](https://blog.csdn.net/gamer_gyt/article/details/59077189)
+
+  
+
+
+  
+
+
+  
+
+
+[https://www.2cto.com/kf/201802/723573.html](https://www.2cto.com/kf/201802/723573.html)
+
+  
+
+
+[https://www.cnblogs.com/aubin/p/8012840.html](https://www.cnblogs.com/aubin/p/8012840.html)
 
