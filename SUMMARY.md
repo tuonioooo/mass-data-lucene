@@ -37,5 +37,6 @@
     * [elasticsearch基本CURD方法及示例](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/elasticsearchji-ben-curd-fang-fa-ji-shi-li.md)
     * [分词一些基本用法](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/fen-ci-yi-xie-ji-ben-yong-fa.md)
     * [text和keyword类型的区别](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/texthe-keyword-lei-xing-de-qu-bie.md)
+    * [elasticsearch单台服务器部署多个节点](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/dan-tai-fu-wu-qi-bu-shu-duo-ge-jie-dian.md)
   * [elasticsearch实战](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/elasticsearchshi-zhan.md)
 
