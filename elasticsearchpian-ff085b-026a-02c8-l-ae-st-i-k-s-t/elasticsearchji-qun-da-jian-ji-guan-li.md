@@ -150,5 +150,11 @@ curl -XGET 'http://172.18.68.11:9200/_cat/nodes?pretty'
 curl -XGET 'http://172.18.68.11:9200/_cat?pretty'
 ```
 
+参考：
 
+https://www.2cto.com/kf/201802/723573.html
+
+https://elasticsearch.cn/article/465
+
+http://www.cnblogs.com/ljhdo/p/4959412.html
 
