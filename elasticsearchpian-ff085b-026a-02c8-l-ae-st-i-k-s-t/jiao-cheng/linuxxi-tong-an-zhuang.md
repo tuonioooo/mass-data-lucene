@@ -151,9 +151,48 @@ success
 [root@localhost elk]# wget https://artifacts.elastic.co/downloads/kibana/kibana-6.5.1-linux-x86_64.tar.gz
 ```
 
+解压
 
+```
+[root@localhost elk]# tar -zxvf kibana-6.5.1-linux-x86_64.tar.gz 
+```
 
+修改Kibana配置文件
 
+```
+[root@localhost config]# vi kibana.yml
+# -------------custom ---------
+#配置kibana服务ip（如果不配置ip那么外网就访问不到服务了）
+#绑定的端口号
+server.port: 5601
+#绑定的ip
+server.host: http://192.168.127.100
+#主机名称
+#server.name: "node1"
+#elasticip
+elasticsearch.url: "http://192.168.127.100:9200"
+```
+
+配置elastic
+
+```
+#设定远程可以http访问elastic
+vim config/elasticsearch.yml
+
+#添加下面配置
+#network.host 绑定ip
+#http.cors.enabled 允许http
+#http.cors.allow-origin 允许访问的ip * 表示任何ip都可以访问
+network.host: 0.0.0.0
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+```
+
+启动kibana
+
+```
+
+```
 
 参考：
 
@@ -165,5 +204,7 @@ success
 
 [https://jingyan.baidu.com/article/3065b3b64eb570becff8a4da.html](https://jingyan.baidu.com/article/3065b3b64eb570becff8a4da.html)
 
-[https://blog.csdn.net/qq3401247010/article/details/78742524](https://blog.csdn.net/qq3401247010/article/details/78742524)
+https://blog.csdn.net/yelllowcong/article/details/78792397
+
+
 
