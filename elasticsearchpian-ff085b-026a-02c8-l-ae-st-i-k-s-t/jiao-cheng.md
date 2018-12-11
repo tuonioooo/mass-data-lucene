@@ -8,7 +8,7 @@
 
 [https://www.kancloud.cn/hanxt/elk/155902](https://www.kancloud.cn/hanxt/elk/155902)
 
-[https://es.xiaoleilu.com/010\_Intro/30\_Tutorial\_Search.html](https://es.xiaoleilu.com/010_Intro/30_Tutorial_Search.html)
+[https://es.xiaoleilu.com/010\_Intro/30\_Tutorial\_Search.html](https://es.xiaoleilu.com/010_Intro/30_Tutorial_Search.html) （需要翻墙）
 
 ### **深入理解ElasticSearch.pdf**
 
