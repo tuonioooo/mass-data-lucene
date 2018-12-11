@@ -27,6 +27,7 @@
   * [教程](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng.md)
     * [前言](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/qian-yan.md)
     * [linux系统安装es、head、kibana插件](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/linuxxi-tong-an-zhuang.md)
+    * [linux安装ik分词](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/linuxan-zhuang-ik-fen-ci.md)
     * [windows系统安装es](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/windowsxi-tong-an-zhuang-es.md)
     * [es、head、kibana、ik插件安装时遇到问题汇总](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/esheadkibanaikcha-jian-an-zhuang-shi-yu-dao-wen-ti-hui-zong.md)
     * [kibana consle 与sense区别](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/kibana-consle-yu-sense-qu-bie.md)
