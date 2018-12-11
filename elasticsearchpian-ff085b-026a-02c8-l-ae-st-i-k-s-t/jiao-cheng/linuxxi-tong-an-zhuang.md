@@ -126,13 +126,13 @@ Started connect web server on http://localhost:9100
 npm run start
 ```
 
-8\)、用elk用户重新运行elasticsearch
+7\)、用elk用户重新运行elasticsearch
 
 ```
 [elk@localhost bin]$ ./elasticsearch
 ```
 
-9\)、访问 [http://192.168.127.127:9100](http://192.168.127.127:9100) ，外部访问时，需要开通端口号：
+8\)、访问 [http://192.168.127.127:9100](http://192.168.127.127:9100) ，外部访问时，需要开通端口号：
 
 ```
 [root@localhost elasticsearch-head]# firewall-cmd --zone=public --add-port=9100/tcp --permanent
