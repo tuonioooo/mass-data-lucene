@@ -82,3 +82,5 @@ unzip elasticsearch-analysis-ik-6.5.2.zip
 
 [http://www.cnblogs.com/zlslch/p/6440373.html](http://www.cnblogs.com/zlslch/p/6440373.html)
 
+https://blog.csdn.net/lu1005287365/article/details/80593443
+
