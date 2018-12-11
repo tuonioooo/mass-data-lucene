@@ -56,7 +56,7 @@ sysctl -w vm.max_map_count=262144
 sysctl -a|grep vm.max_map_count
 显示：
 vm.max_map_count = 262144
- 
+
 上述方法修改之后，如果重启虚拟机将失效，所以：
 解决办法：
 在/etc/sysctl.conf文件最后添加一行
@@ -64,5 +64,11 @@ vm.max_map_count=262144
 即可永久修改
 ```
 
+3.启动Elasticsearch时使用新建的elk用户，启动时报错：max number of threads \[3895\] for user \[elk\] is too low, increase to at least \[4096\]；查资料后，查看服务器当前用户的最大线程数为3895，修改配置文件/etc/security/limits.d/20-nproc.conf（Centos7）中的nproc为4096后，切换到elk用户查看当前最大线程数还是为3895，请问这个怎么修改啊？Elasticsearch启动要求最大线程数至少为4096.
 
+![](/assets/import-es-002.png)
+
+解决方式：
+
+_**重启服务器，就永久生效了**_
 
