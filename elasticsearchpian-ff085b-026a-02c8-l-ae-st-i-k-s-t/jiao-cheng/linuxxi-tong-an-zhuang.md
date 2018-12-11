@@ -141,5 +141,15 @@ success
 success
 ```
 
-![](/assets/import-es-001.png)参考：[https://github.com/mobz/elasticsearch-head](https://github.com/mobz/elasticsearch-head)
+![](/assets/import-es-001.png)参考：
+
+[https://github.com/mobz/elasticsearch-head](https://github.com/mobz/elasticsearch-head)
+
+[https://www.2cto.com/kf/201802/723573.html](https://www.2cto.com/kf/201802/723573.html)
+
+[https://blog.csdn.net/qq3401247010/article/details/78742524](https://blog.csdn.net/qq3401247010/article/details/78742524)
+
+[https://jingyan.baidu.com/article/3065b3b64eb570becff8a4da.html](https://jingyan.baidu.com/article/3065b3b64eb570becff8a4da.html)
+
+[https://blog.csdn.net/qq3401247010/article/details/78742524](https://blog.csdn.net/qq3401247010/article/details/78742524)
 
