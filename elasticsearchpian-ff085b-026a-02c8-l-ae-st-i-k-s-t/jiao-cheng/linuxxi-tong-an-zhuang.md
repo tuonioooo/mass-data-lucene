@@ -102,54 +102,17 @@ v10.9.0
 v10.9.0
 ```
 
-5\)、安装grunt
-
-```
-[elk@localhost elasticsearch-head]$ npm install -g grunt -cli --save-dev
-```
-
-a.安装遇到的问题
-
-```
-npm WARN checkPermissions Missing write access to /opt/moudles/node-v8.9.4-linux-x64/lib/node_modules
-npm ERR! path /opt/moudles/node-v8.9.4-linux-x64/lib/node_modules
-npm ERR! code EACCES
-npm ERR! errno -13
-npm ERR! syscall access
-npm ERR! Error: EACCES: permission denied, access '/opt/moudles/node-v8.9.4-linux-x64/lib/node_modules'
-npm ERR!  { Error: EACCES: permission denied, access '/opt/moudles/node-v8.9.4-linux-x64/lib/node_modules'
-npm ERR!   stack: 'Error: EACCES: permission denied, access \'/opt/moudles/node-v8.9.4-linux-x64/lib/node_modules\'',
-npm ERR!   errno: -13,
-npm ERR!   code: 'EACCES',
-npm ERR!   syscall: 'access',
-npm ERR!   path: '/opt/moudles/node-v8.9.4-linux-x64/lib/node_modules' }
-npm ERR!
-npm ERR! Please try running this command again as root/Administrator.
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/es/.npm/_logs/2018-02-25T02_49_37_372Z-debug.log
-```
-
-解决方式：可以看出权限不够，是由于node是root用户安装的，我这里是elk用户，授予elk用户执行权限，chown -R elk:users /home/elk/
-
-操作如下：
-
-```
-[elk@localhost elasticsearch-head]$ su root
-密码：
-[root@localhost elasticsearch-head]# chown -R elk:users /home/elk/
-```
-
-6\)、修改elasticsearch的配置文件，elasticsearch安装目录/config/elasticsearch.yml
+5\)、修改elasticsearch的配置文件，elasticsearch安装目录/config/elasticsearch.yml
 
 ```
 http.cors.enabled: true
 http.cors.allow-origin: "*"
 ```
 
-7\)、运行head
+6\)、运行head
 
 ```
+[elk@localhost elasticsearch-head]$ npm install  #时间较长
 [elk@localhost elasticsearch-head]$ npm run start
 
 > elasticsearch-head@0.0.0 start /home/elk/elasticsearch-head
@@ -177,5 +140,11 @@ success
 success
 ```
 
-![](/assets/import-es-001.png)
+![](/assets/import-es-001.png)参考：https://github.com/mobz/elasticsearch-head
+
+
+
+
+
+
 
