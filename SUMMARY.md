@@ -34,5 +34,6 @@
     * [elasticsearch架构及概念分析](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/elasticsearchjia-gou-ji-gai-nian-fen-xi.md)
     * [elasticsearch集群搭建及管理](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/elasticsearchji-qun-da-jian-ji-guan-li.md)
     * [\_bulk 批量导入数据](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/bulk-pi-liang-dao-ru-shu-ju.md)
+    * [elasticsearch基本CURD方法及示例](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/jiao-cheng/elasticsearchji-ben-curd-fang-fa-ji-shi-li.md)
   * [elasticsearch实战](elasticsearchpian-ff085b-026a-02c8-l-ae-st-i-k-s-t/elasticsearchshi-zhan.md)
 
