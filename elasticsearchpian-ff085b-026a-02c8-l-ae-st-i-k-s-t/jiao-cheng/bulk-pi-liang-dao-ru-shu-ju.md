@@ -104,5 +104,9 @@ curl -XPOST http://localhost:9200/iktest/article/_search -H 'Content-Type: appli
 
 参考：
 
-https://www.jianshu.com/p/1c8ba834e15c?utm\_source=oschina-app
+[https://www.jianshu.com/p/1c8ba834e15c?utm\_source=oschina-app](https://www.jianshu.com/p/1c8ba834e15c?utm_source=oschina-app)
+
+http://www.cnblogs.com/zlslch/p/6422055.html
+
+https://www.cnblogs.com/xing901022/p/5339419.html
 
