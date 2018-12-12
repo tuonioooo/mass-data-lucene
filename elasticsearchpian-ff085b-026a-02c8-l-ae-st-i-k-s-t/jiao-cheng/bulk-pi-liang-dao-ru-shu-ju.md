@@ -110,5 +110,7 @@ curl -XPOST http://localhost:9200/iktest/article/_search -H 'Content-Type: appli
 
 [https://www.cnblogs.com/xing901022/p/5339419.html](https://www.cnblogs.com/xing901022/p/5339419.html)
 
-http://www.cnblogs.com/hai-ping/p/6068946.html
+[http://www.cnblogs.com/hai-ping/p/6068946.html](http://www.cnblogs.com/hai-ping/p/6068946.html)
+
+https://my.oschina.net/cjun/blog/761355
 
